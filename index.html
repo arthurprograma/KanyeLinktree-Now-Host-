@@ -45,6 +45,19 @@
      </div>
 
 <style>
+/* Estilos para telas grandes (ex.: PCs) */
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+/* Estilos para telas pequenas (ex.: celulares) */
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+  }
+}
 
 body {
     background: rgb(111,9,121);
